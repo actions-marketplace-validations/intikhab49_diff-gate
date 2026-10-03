@@ -1,5 +1,5 @@
 name: diff-gate
-description: Check a pull request's diff for imports that do not resolve, new packages that do not exist or look squatted, new dependencies and duplicated helpers.
+description: "Blocks AI-hallucinated packages: fails on imports that resolve to nothing and new deps missing from npm/PyPI or squatted."
 branding:
   icon: git-pull-request
   color: purple

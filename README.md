@@ -146,6 +146,7 @@ Reproduce it: [`benchmark/seed.sh`](benchmark/seed.sh) builds the repo, [`benchm
 - It reads diffs. It does not run your tests and cannot tell you whether the code is correct.
 
 ## Changelog
+- **v1.1.2**: listed on the GitHub Marketplace. The action description is shorter to fit its 125-character limit. No behaviour change.
 - **v1.1.1**: on Windows the script could crash after printing the report and exit 127 instead of 1. Fixed.
 - **v1.1.0**: new dependencies are looked up on npm and PyPI: missing or squatted packages BLOCK, obscure or lookalike ones WARN. "Untested logic" is now INFO. Shorter skill description. Action gets an `offline` input.
 - **v1.0.1**: `fail-on: warn` no longer fails on INFO-only reports.
